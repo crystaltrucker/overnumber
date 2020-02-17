@@ -1,0 +1,101 @@
+body{
+    font-family: Arial;
+}
+@media screen and (device-width: 1366px){
+    .container{
+        display: table-cell;
+        width:1366px;
+        height: 768px;
+        padding: 10px;
+        vertical-align: middle;
+        text-align: center;
+    }
+}@media screen and (device-width: 1920px){
+    .container{
+        display: table-cell;
+        width:1920px;
+        height: 1080px;
+        padding: 10px;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+.main-link{
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    padding:20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    padding:10px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+a:hover{
+    animation-name: change_bg;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    color:black;
+}
+@keyframes change_bg{
+    from {background-color: lightskyblue;}
+    to {background-color: white;}
+}
+h1{
+    color:lightseagreen
+}
+#number, #times, #limit{
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Hide Arrow except firefox */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+/* Firefox */
+input[type=number]{
+    -moz-appearance: textfield;
+}
+button{
+    border:2px solid lightskyblue;
+    border-radius: 10px;
+    padding:10px;
+    background: lightskyblue;
+    color: white;
+}
+#submit{
+    margin-top: 5px;
+}
+button:hover{
+    animation-name:change_bg;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    color:black;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 2px solid lightskyblue;
+    padding: 10px;
+}
+#alert_delete{
+    font-size: x-small;
+    color:red;
+    display: none;
+}
+#submit_success{
+    font-size: x-small;
+    color:green;
+    display: none;
+}
