@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Over Number</title>
+        <title>Over Number Finder</title>
         <link rel="stylesheet" href="style/main.css">
     </head>
     <body>
