@@ -6,3 +6,5 @@ Configuration
 Set MySQL details on config/config.php
 
 SQL import file is provided in config directory
+
+Languages used HTML, CSS, JavaScript, jQuery, php, SQL
